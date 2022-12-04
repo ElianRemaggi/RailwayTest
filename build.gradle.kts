@@ -19,7 +19,7 @@ application {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.example"
+        attributes["Main-Class"] = "com.example.Application"
     }
 }
 
