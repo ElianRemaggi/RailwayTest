@@ -31,6 +31,7 @@ dependencies {
 
 tasks.jar {
     manifest {
-        attributes["Main-Class"] = "com.example.Applicationkt"
+        attributes["Main-Class"] = "src.main.kotlin.com.example.Application.kt"
+
     }//ty
 }
