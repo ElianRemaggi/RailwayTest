@@ -13,14 +13,10 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello World!")
         }
-    }
 
-    routing {
         get("/otra") {
             call.respondText("Hello Otraaaaaaaaaaaa")
         }
     }
-
-    routing {
-    }
+    
 }
