@@ -32,5 +32,5 @@ dependencies {
 tasks.jar {
     manifest {
         attributes["Main-Class"] = "com.example.Application.kt"
-    }
+    }//ty
 }
