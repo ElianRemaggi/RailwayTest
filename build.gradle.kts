@@ -19,7 +19,7 @@ application {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.caco3.ApplicationKt"
+        attributes["Main-Class"] = "com.caco3.Application"
     }
 }
 
