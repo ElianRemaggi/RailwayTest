@@ -31,6 +31,6 @@ dependencies {
 
 tasks.jar {
     manifest {
-        attributes["Main-Class"] = "com.example.Applicationkt"
+        attributes["Main-Class"] = "com.example.Application"
     }
 }
