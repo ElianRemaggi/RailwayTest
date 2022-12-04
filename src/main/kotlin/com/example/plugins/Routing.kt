@@ -13,6 +13,9 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello World!")
         }
+        get("/algo") {
+            call.respondText("algo")
+        }
     }
     routing {
     }
